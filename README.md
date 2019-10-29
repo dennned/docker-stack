@@ -1,2 +1,6 @@
 # docker-stack
-docker stack LAMP
+docker stack LAMP : 
+* nginx
+* phpfpm
+* mysql
+* phpmyadmin
