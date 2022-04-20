@@ -1,4 +1,4 @@
-FROM php:7.4-fpm
+FROM php:8.0-fpm
 RUN apt-get update && apt-get install -y \
 && docker-php-ext-install pdo pdo_mysql \
 && apt-get install -y git \
